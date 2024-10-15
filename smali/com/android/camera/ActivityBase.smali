@@ -1994,7 +1994,7 @@
     :try_end_0
     .catch Landroid/content/ActivityNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    const-string v6, "com.android.camera.action.REVIEW"
+    const-string v6, "android.provider.action.REVIEW"
 
     const/4 v7, 0x1
 
@@ -2043,7 +2043,7 @@
     goto :goto_0
 
     :cond_5
-    const-string v5, "gotoGallery: com.android.camera.action.REVIEW"
+    const-string v5, "gotoGallery: android.provider.action.REVIEW"
 
     .line 24
     invoke-static {v1, v5}, Lcom/android/camera/log/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
